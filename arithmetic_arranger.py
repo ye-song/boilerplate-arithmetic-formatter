@@ -67,6 +67,6 @@ def arithmetic_arranger(problems, A='default'):
 
     # Returning the output
     if A == 'default':
-        return print("%s\n%s\n%s\n" % (x, y, z))
+        return ("%s\n%s\n%s" % (x, y, z))
     elif A == True :
-        return print("%s\n%s\n%s\n%s\n" % (x, y, z, w))
+        return ("%s\n%s\n%s\n%s" % (x, y, z, w))
